@@ -1,0 +1,94 @@
+.alert {
+    margin: 1rem 0;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.alert.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb
+}
+
+.alert.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb
+}
+
+.alert.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba
+}
+
+.alert.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb
+}
+
+.special-field {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.field:not(.error-field) > .error, .upload-box:not(.error-field) > .error {
+    display: none
+}
+
+#subscribe-objects-form.inline-fields {
+    margin-top: 40px
+}
+
+.twitter-typeahead {
+    display: block !important
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-menu {
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer
+}
+
+.tt-suggestion.tt-cursor, .tt-suggestion:hover {
+    color: #fff;
+    background-color: #0fa38e
+}
+
+#objects-list-box {
+    overflow: auto
+}
+
+.m-to {
+    opacity: 0
+}
+
+.object .vr-tour-icon {
+    cursor: default
+}
+
+.similar-box.comments .container-small {
+    z-index: 11
+}
+
+#objects-layout.list-view #objects-list-box.loading {
+    min-height: 80px
+}
